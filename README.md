@@ -1,103 +1,16 @@
-# 📅 Interactive Calendar Component (React.js)
+# React + Vite
 
-A modern, responsive **Interactive Wall Calendar UI** built using **React.js**. This project replicates a real-world wall calendar experience with features like **date range selection** and an **integrated notes system**, implemented entirely on the frontend.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- 📆 **Wall Calendar UI**
-  - Clean and minimal design inspired by physical wall calendars
-  - Hero image section with calendar grid
+## React Compiler
 
-- 🔵 **Date Range Selection**
-  - Select start and end dates
-  - Highlight selected range visually
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- 📝 **Notes Section**
-  - Add notes for selected dates or entire month
-  - Data stored using `localStorage`
+## Expanding the ESLint configuration
 
-- 📱 **Responsive Design**
-  - Desktop: Side-by-side layout
-  - Mobile: Stacked layout
-  - Fully touch-friendly UI
-
-- 🎨 **Optional Enhancements**
-  - Theme switching
-  - Animations
-  - Holiday markers
-
----
-
-## 🛠 Tech Stack
-
-- React.js
-- JavaScript (ES6+)
-- CSS / Tailwind CSS
-- LocalStorage API
-
----
-
-## 📂 Project Structure
-
-```bash
-interactive-calendar/
-│
-├── public/
-│ └── images/
-│
-├── src/
-│ ├── components/
-│ │ ├── Calendar.jsx
-│ │ ├── Day.jsx
-│ │ ├── Notes.jsx
-│ │ ├── Header.jsx
-│ │
-│ ├── hooks/
-│ │ └── useCalendar.js
-│ │
-│ ├── utils/
-│ │ └── dateUtils.js
-│ │
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── styles.css
-│
-├── package.json
-└── README.md
-```
-
----
-
-## ⚙️ Getting Started
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/your-username/interactive-calendar.git
-```
-
-### 2️⃣ Navigate to Project Folder
-
-```bash
-cd interactive-calendar
-```
-
-### 3️⃣ Install Dependencies
-
-```bash
-npm install
-```
-
-### 4️⃣ Run Development Server
-
-```bash
-npm run dev
-```
-
-### Open your browser and go to:
-
-```bash
-http://localhost:5173
-```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
