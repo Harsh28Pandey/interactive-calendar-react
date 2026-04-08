@@ -41,6 +41,7 @@ A modern, responsive **Interactive Wall Calendar UI** built using **React.js**. 
 
 ## 📂 Project Structure
 
+```bash
 interactive-calendar/
 │
 ├── public/
@@ -65,6 +66,7 @@ interactive-calendar/
 │
 ├── package.json
 └── README.md
+```
 
 ---
 
