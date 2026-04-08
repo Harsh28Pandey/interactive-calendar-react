@@ -1,16 +1,116 @@
-# React + Vite
+# 📅 Interactive Calendar Component (React.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **Interactive Wall Calendar UI** built using **React.js**. This project replicates a real-world wall calendar experience with features like **date range selection** and an **integrated notes system**, implemented entirely on the frontend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 📆 **Wall Calendar UI**
+  - Clean and minimal design inspired by physical wall calendars
+  - Hero image section with calendar grid
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔵 **Date Range Selection**
+  - Select start and end dates
+  - Highlight selected range visually
 
-## Expanding the ESLint configuration
+- 📝 **Notes Section**
+  - Add notes for selected dates or entire month
+  - Data stored using `localStorage`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📱 **Responsive Design**
+  - Desktop: Side-by-side layout
+  - Mobile: Stacked layout
+  - Fully touch-friendly UI
+
+- 🎨 **Optional Enhancements**
+  - Theme switching
+  - Animations
+  - Holiday markers
+
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- CSS / Tailwind CSS (optional)
+- LocalStorage API
+
+---
+
+## 📂 Project Structure
+
+```bash
+interactive-calendar/
+│
+├── public/
+│   └── images/
+│
+├── src/
+│   ├── components/
+│   │   ├── Calendar.jsx
+│   │   ├── Day.jsx
+│   │   ├── Notes.jsx
+│   │   ├── Header.jsx
+│   │
+│   ├── hooks/
+│   │   └── useCalendar.js
+│   │
+│   ├── utils/
+│   │   └── dateUtils.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles.css
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/interactive-calendar.git
+```
+
+### 2️⃣ Navigate to Project Folder
+
+```bash
+cd interactive-calendar
+```
+
+### 3️⃣ Install Dependencies / Packages
+
+```bash
+npm install
+npm install framer-motion
+npm install date-fns
+```
+
+### 4️⃣ Run Development Server
+
+```bash
+npm run dev
+```
+
+### Open your browser and go to:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+## 🌐 Live Demo
+
+You can view the live working project here:
+
+🔗 **Live URL:**  
+https://your-live-link.vercel.app
+
+---
